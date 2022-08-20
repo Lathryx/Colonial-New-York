@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="mt-10 footer p-10 bg-neutral text-neutral-content">
             <div>
                 <img className="w-32 h-auto rounded-lg" src={Flag} /> 
-                <p>Made by <a className="text-primary hover:underline" href="https://github.com/lathryx">Lathryx</a></p>
+                <p className="text-lg">Made by <a className="text-primary hover:underline" href="https://github.com/lathryx">Lathryx</a></p>
             </div>
             <div>
                 <p className="footer-title">References</p> 
