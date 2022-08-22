@@ -10,7 +10,7 @@ export default function Navbar() {
                 </a>
             </div>
             <div class="flex-none">
-                <button className="btn btn-neutral">Join Now</button>
+                <button className="btn btn-neutral"><a href="#joinnow">Join Now</a></button>
             </div>
         </div>
     ); 
