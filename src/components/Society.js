@@ -30,7 +30,7 @@ export default function Society() {
     return (
         <div className="relative my-5 px-10 py-5 w-full max-h-[75vh] bg-neutral"> 
             <p className="mx-auto mb-5 pb-2 w-1/4 text-center text-2xl font-bold border-b-2 border-b-primary">Locations</p> 
-            <Swiper className="my-5 w-1/3 h-full rounded-lg" style={{ "--swiper-pagination-color": "#3ABEF8", "--swiper-navigation-color": "#3ABEF8" }} slidesPerView={1} centeredSlides={true} spaceBetween={30} autoplay={{ delay: 2500, disableOnInteraction: false }} loop={true} pagination={{ clickable: true }} navigation={true} modules={[Autoplay, Pagination, Navigation]}>
+            <Swiper className="my-5 w-full md:w-1/3 h-full rounded-lg" style={{ "--swiper-pagination-color": "#3ABEF8", "--swiper-navigation-color": "#3ABEF8" }} slidesPerView={1} centeredSlides={true} spaceBetween={30} autoplay={{ delay: 2500, disableOnInteraction: false }} loop={true} pagination={{ clickable: true }} navigation={true} modules={[Autoplay, Pagination, Navigation]}>
                 {cities_info.map((city, index) => (
                     <SwiperSlide className="flex flex-col justify-center items-center" key={index}>
                         <p className="mb-3 text-lg font-semibold italic">{city.name}</p>

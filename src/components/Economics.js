@@ -4,9 +4,9 @@ export default function Economics() {
 
     return (
         <div className="m-10"> 
-            <p className="mb-5 pb-2 w-1/4 text-2xl font-bold border-b-2 border-b-primary">Economics</p> 
-            <div className="mx-auto w-5/6 flex flex-wrap justify-around items-center">
-                <div className="m-5 p-10 w-96 h-96 bg-neutral rounded-xl">
+            <p className="mb-10 pb-2 w-1/4 text-2xl font-bold border-b-2 border-b-primary">Economics</p> 
+            <div className="mx-auto w-full sm:w-5/6 flex flex-wrap gap-10 justify-around items-center">
+                <div className="p-10 w-full sm:w-96 h-auto sm:h-96 bg-neutral rounded-xl">
                     <p className="text-xl font-bold mb-2">Agriculture & Manufacturing</p> 
                     <p className="mb-2">One of our primary economic activities is agriculture. Some of the products we grow include: </p> 
                     <ul className="mb-2">
@@ -21,7 +21,7 @@ export default function Economics() {
                     </ul>
                     <p>Manufacturing is another one of our main economic activities. It mainly centers around shipbuilding and iron work. </p>
                 </div>
-                <div className="m-5 p-10 w-96 h-96 bg-neutral rounded-xl">
+                <div className="p-10 w-full sm:w-96 h-auto sm:h-96 bg-neutral rounded-xl">
                     <p className="text-xl font-bold mb-2">Merchants</p> 
                     <p className="mb-2">First Dutch and then English merchants built the city’s local economy largely around supplying ships for the trade in slaves and in what slaves produced, including: </p> 
                     <ul className="mb-2">

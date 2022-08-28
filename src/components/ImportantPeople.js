@@ -29,8 +29,8 @@ const cards_info = [
 export default function ImportantPeople() {
     return (
         <div className="m-10">
-            <p className="mb-5 pb-2 w-1/4 text-2xl font-bold border-b-2 border-b-primary">Leaders</p> 
-            <div className="p-10 flex flex-wrap justify-around align-mdiddle gap-10">
+            <p className="mb-10 pb-2 w-1/4 text-2xl font-bold border-b-2 border-b-primary">Leaders</p> 
+            <div className="flex flex-wrap justify-around align-mdiddle gap-10">
                 {cards_info.map((person, index) => (
                     <div className="card w-96 bg-neutral shadow-xl" key={index}>
                         <figure className="p-5"><img className="h-auto rounded-xl" src={person.img} /></figure> 

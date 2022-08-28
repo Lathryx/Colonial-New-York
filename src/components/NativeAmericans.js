@@ -7,7 +7,7 @@ export default function NativeAmericans() {
                 <p className="mb-3 text-xl font-bold">Peace with the Natives! </p> 
                 <p>Here in New York, we are at peace with the Native tribes who surroundour territory, due to our mutual economic gain from the fur trade! </p> 
             </div> 
-            <img className="mx-20 w-full md:w-1/3 h-full md:h-1/3 rounded-xl shadow-xl" src={NativeAmericansImg} /> 
+            <img className="mx-20 w-5/6 md:w-1/3 h-full md:h-1/3 rounded-xl shadow-xl" src={NativeAmericansImg} /> 
         </div>
     ); 
 }
